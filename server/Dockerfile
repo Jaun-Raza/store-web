@@ -1,6 +1,6 @@
-FROM node
+FROM node:14
 
-WORKDIR /usr/app
+WORKDIR /usr/index
 
 COPY package.json .
 
